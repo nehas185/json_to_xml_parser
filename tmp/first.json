@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "action": 3,
+			"rules": {
+				"id" : "3",
+				"rname_r1" : "testing code",
+				"rname_r2" : "insert into rname tag",
+				"rulec_" : "'ssh.exe' in data is not None or (data['DestinationPort'] == '22')"
+			},
+
+      "hkey": "HKEY_CURRENT_USER",
+      "_comment": "Registry Entry",
+      "reg_keys": [
+        {
+          "reg_path": "Software\\SimonTatham\\PuTTY\\SshHostKeys",
+          "lp_Field_Type": "Reg_Sz",
+          "lp_Field_Name": "ssh-ed25519@22",
+          "lp_Field_Value": "0x15e2083e09a04ece599c46efa83ce2a3f1f89d5baa4c04316b5584c483dc8b75,0x229f77f515239ed0bd903b2cc02c88a10d457610d2626f829bfac177847e7ec6"
+        }
+      ]
+    }
+  ]
+}

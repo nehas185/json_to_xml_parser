@@ -1,0 +1,72 @@
+<system_filter>
+	<id_3>
+		<rule>
+			<rname>'abc'</rname>
+			<rulec_>data["DestinationPort"] in ["22"]</rulec_>
+		</rule>
+		<rule>
+			<rname>'Technique=Remote Desktop Protocol'</rname>
+			<rulec_>data["Initiated"] == 'true'</rulec_>
+		</rule>
+	<rule>
+	<rname>'Technique=Remote Desktop Protocol Process'</rname>
+	<rulec_>testing</rulec_>
+	</rule>
+	</id_3>
+	<id_1>
+		<rule>
+			<rname>'Technique'</rname>
+			<rulec_>yimnksfsdt</rulec_>
+		</rule>
+		<rule>
+			<rname>'Technique'</rname>
+			<rulec_>data["Image"]) is not None</rulec_>
+		</rule>
+	</id_1>
+	<id_12>
+		<rule>
+			<rname>'Technique'</rname>
+			<rulec_>vnbghjhmghj</rulec_>
+		</rule>
+		</id_12>
+	<id_11>
+		<rule>
+			<rname>'Technique=Forced Authentication'</rname>
+			<rulec_>jukijyikjhl</rulec_>
+		</rule>
+		<rule>
+			<rname>'Technique=Scheduled Task'</rname>
+			<rulec_>data</rulec_>
+		</rule>
+	</id_11>
+	<id_7>
+		<rule>
+			<rname>'ImageLoad'</rname>
+			<rulec_>dwafdfy</rulec_>
+		</rule>
+	</id_7>
+	<id_10>
+		<rule>
+			<rname>'Technique=Credential Dumping'</rname>
+			<rulec_>sdfdfdybgj</rulec_>
+		</rule>
+	</id_10>
+	<id_8>
+		<rule>
+			<rname>'Technique'</rname>
+			<rulec_>"LoadLibrary" in data"</rulec_>
+		</rule>
+		<rule>
+			<rname>'Technique'</rname>
+			<rulec_>dwefsdf</rulec_>
+		</rule>
+	<rule>
+	<rname>r2</rname>
+	<rulec_>Process Execution</rulec_>
+	</rule>
+	<rule>
+	<rname>'Technique Process'</rname>
+	<rulec_> data['Image'] is not None</rulec_>
+</rule>
+</id_8>
+</system_filter>
